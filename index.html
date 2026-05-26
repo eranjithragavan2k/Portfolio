@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Ranjith Ragavan
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <button class="nav-btn active"
+                    onclick="showSection(0,this)">
+                    Home
+                </button>
+            </li>
+
+            <li>
+                <button class="nav-btn"
+                    onclick="showSection(1,this)">
+                    About
+                </button>
+            </li>
+
+            <li>
+                <button class="nav-btn"
+                    onclick="showSection(2,this)">
+                    Projects
+                </button>
+            </li>
+
+            <li>
+                <button class="nav-btn"
+                    onclick="showSection(3,this)">
+                    Contact
+                </button>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <!-- MAIN CONTAINER -->
+
+    <div class="container" id="container">
+
+        <!-- HOME SECTION -->
+
+        <section class="section">
+
+            <div class="home-content">
+
+                <div class="left-content">
+
+                    <h3>Hello, It's Me</h3>
+
+                    <h1>Ranjith Ragavan</h1>
+
+                    <div class="typing-text">
+
+                        <span>I am a</span>
+
+                        <span class="highlight">
+                            Full Stack Developer
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Passionate Full Stack Developer skilled in
+                        frontend and backend technologies. I build
+                        responsive websites, web applications,
+                        mobile applications and modern digital
+                        solutions with creative user experiences.
+                    </p>
+
+                    <div class="social-icons">
+
+                        <i class="fa-brands fa-linkedin-in"></i>
+
+                        <i class="fa-brands fa-github"></i>
+
+                        <i class="fa-brands fa-facebook-f"></i>
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </div>
+
+                    <button class="btn">
+                        Download CV
+                    </button>
+
+                </div>
+
+                <div class="right-content">
+
+                    <img src="MyPhoto.jpg" alt="Profile Image">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ABOUT SECTION -->
+
+        <section class="section">
+
+            <div class="about-container">
+
+                <h1 class="section-title">
+                    About Me
+                </h1>
+
+                <div class="about-card">
+
+                    <h2>
+                        Full Stack Developer
+                    </h2>
+
+                    <p>
+                        Full Stack Developer Freelancer with
+                        experience in frontend, backend,
+                        database and mobile application
+                        technologies. Skilled in creating
+                        responsive websites, APIs, modern UI
+                        designs and scalable applications with
+                        clean code and creative solutions.
+                    </p>
+
+                    <!-- SKILLS -->
+
+                    <div class="skills">
+
+                        <div class="skill-box">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fa-brands fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fa-brands fa-java"></i>
+                            <span>Java</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fa-solid fa-leaf"></i>
+                            <span>Spring Boot</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fa-solid fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fa-brands fa-python"></i>
+                            <span>Python</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fa-solid fa-code"></i>
+                            <span>Django</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fa-solid fa-fire"></i>
+                            <span>Firebase</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fa-brands fa-php"></i>
+                            <span>PHP</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fa-brands fa-react"></i>
+                            <span>React JS</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fa-brands fa-react"></i>
+                            <span>React Native</span>
+                        </div>
+
+                        <div class="skill-box">
+                            <i class="fa-brands fa-node-js"></i>
+                            <span>Node JS</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PROJECTS SECTION -->
+
+        <section class="section">
+
+            <div class="projects-container">
+
+                <h1 class="section-title">
+                    Projects
+                </h1>
+
+                <div class="project-box">
+
+                    <h2>AI PDF Summarizer</h2>
+
+                    <p>
+                        AI application to summarize PDF
+                        documents and generate audio from
+                        text content.
+                    </p>
+
+                </div>
+
+                <div class="project-box">
+
+                    <h2>ChatBot Application</h2>
+
+                    <p>
+                        Smart chatbot using Gemini API with
+                        responsive frontend interface.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT SECTION -->
+
+        <!-- CONTACT SECTION -->
+
+        <section class="section">
+
+            <div class="contact-container">
+
+                <h1 class="section-title">
+                    Contact Me
+                </h1>
+
+                <input type="text"
+                    id="name"
+                    placeholder="Enter Your Name">
+
+                <input type="email"
+                    id="email"
+                    placeholder="Enter Your Email">
+
+                <textarea
+                    id="message"
+                    placeholder="Your Message"></textarea>
+
+                <button class="btn"
+                    id="sendBtn">
+                    Send Message
+                </button>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script type="module">      
+
+        import { initializeApp }
+        from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+
+        import {
+            getFirestore,
+            collection,
+            addDoc
+        }
+        from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+        /* FIREBASE CONFIG */
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyCAGUi1PwcrK5qETYTzy64hlWwiYZELCyc",
+
+            authDomain: "send-mail-7cd29.firebaseapp.com",
+
+            projectId: "send-mail-7cd29",
+
+            storageBucket: "send-mail-7cd29.firebasestorage.app",
+
+            messagingSenderId: "1098579047241",
+            
+            appId: "1:1098579047241:web:771319de4bcd0bbec0a098"
+            };
+
+        /* INITIALIZE FIREBASE */
+
+        const app =
+            initializeApp(firebaseConfig);
+
+        const db =
+            getFirestore(app);
+
+        /* SEND MESSAGE */
+
+        const sendBtn =
+            document.getElementById("sendBtn");
+
+        sendBtn.addEventListener("click",
+            async () => {
+
+            const name =
+                document.getElementById("name").value.trim();
+
+            const email =
+                document.getElementById("email").value.trim();
+
+            const message =
+                document.getElementById("message").value.trim();
+
+            /* VALIDATION */
+
+            if(name === "" ||
+            email === "" ||
+            message === ""){
+
+                alert("Please fill all fields to send message");
+
+                return;
+            }
+
+            try{
+
+                await addDoc(
+                    collection(db, "messages"),
+                    {
+                        name:name,
+                        email:email,
+                        message:message,
+                        createdAt:new Date()
+                    }
+                );
+
+                alert("Message Sent Successfully");
+
+                document.getElementById("name").value = "";
+                document.getElementById("email").value = "";
+                document.getElementById("message").value = "";
+
+            }
+
+            catch(error){
+
+                alert("Failed To Send Message");
+
+                console.log(error);
+            }
+
+        });
+
+    </script>
+
+    <!-- JS -->
+
+    <script src="script.js"></script>
+
+
+    
+</body>
+
+</html>
